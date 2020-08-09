@@ -22,7 +22,7 @@ var images_list = [
 	title: "Cheese Corn papd"	
 },
 {
-	src: "images/8.jpeg",
+	src: "images/88.jpeg",
 	title: "Sweet Corn"
 },
 {
@@ -55,6 +55,10 @@ var images_list = [
 {
 	src: "images/14.jpeg",
 	title: "Veg Fried Momos"
+},
+{
+	src: "images/11.jpg",
+	title: "Cheese Corn"
 }
 ];
 
@@ -74,7 +78,7 @@ function getCardElem(imageElem, counter){
       Order us on - </p>
       <p><a href="https://www.swiggy.com/restaurants/corn-king-pratap-nagar-nagpur-218957?searchQuery=Corn+King">swiggy</a></p>
       <p><a href="https://www.zomato.com/nagpur/corn-king-gayatri-nagar">zomato</a></p>
-      <p><a href="https://api.whatsapp.com/send?phone=919764692482&text=Hi Cornking">whatsapp</a></p>
+      <p><a href="https://api.whatsapp.com/send?phone=919637830707&text=Hi Cornking">whatsapp</a></p>
 
     </div>`;
 	return str;
