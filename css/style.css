@@ -67,5 +67,6 @@ footer.page-footer {
   background: #73AD21;
   padding: 10px; 
   }
+label.required { color: red; }
 
 
