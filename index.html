@@ -152,17 +152,16 @@
                     <div class="col l6 s12">
                         <div class="row " >
                            
-                          <form action="https://script.google.com/macros/s/AKfycbxz0GGZGEwzmmcnmLgP-Mvji11z3ahhlRnb1LgTDOy55ugS1aM/exec" method="post" id="contactForm1" name="contactForm1">
+                          <form id="output_block">
                <fieldset>
-
                   <div>
 					Name *  
 				<input type="text" value="" size="25" id="contactName" name="contactName">
                   </div>
 
                   <div>
-                   Email *
-                     <input type="text" value="" size="25" id="contactEmail" name="contactEmail">
+                   Phone *
+                     <input type="text" value="" size="25" id="contactPhone" name="contactEmail">
                   </div>
 
                   <div>
@@ -175,24 +174,18 @@
                      <textarea type="text" cols="50" rows="7" id="contactMessage" name="contactMessage"></textarea>
                   </div>
 
-                  <div>
-                     <button type="submit" class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
+                   <div >
+                    <a class="waves-effect waves-light btn" onclick="handleOnSubmit()">SUBMIT11</a>
+                </div>
+                <div >
+                    <p id="error_block"></p>
+                </div>
 
                   
 
                </fieldset>
                </form> <!-- Form End -->
 
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-               <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-               </div>  
 
 
 
