@@ -77,7 +77,7 @@ function handleOnGetOffer(){
 	var name = document.getElementById("icon_prefix").value;
 	var phone = document.getElementById("icon_telephone").value;
 	var error = document.getElementById("popup_error_block");
-	var out = document.getElementById("popup_block");
+	var out = document.getElementById("modal1");
 	
 	if(name == ""){
 		error.innerHTML = "Name can not be blank";
@@ -122,6 +122,7 @@ function getModalElem(){
             <div class="section">
                 <!--   Icon Section   -->
                 <div class="col s12">
+                	<h4>Get Chees Corn Chaat as Complimentary Dish</h4>
                     <div class="row center">
                         <h3><i class="mdi-content-send brown-text"></i></h3>
                         <h4 style="margin-bottom: 40px;"></h4>
@@ -130,7 +131,7 @@ function getModalElem(){
                             <a id="rcorners1"  href="https://www.swiggy.com/restaurants/corn-king-pratap-nagar-nagpur-218957?searchQuery=Corn+King">
                                 <img id="rcorners2" border="0" alt="swiggy" src="swiggy.png" width="120" height="100" />
                             </a>
-</div><br> <div>
+</div><br><div>
                             <a id="rcorners1" href="https://www.zomato.com/nagpur/corn-king-gayatri-nagar">
                                 <img id="rcorners2" border="0" alt="zomato" src="zomato.png" width="120" height="100" />
                             </a>
