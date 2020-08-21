@@ -5,6 +5,8 @@
     $('.parallax').parallax();
     $('.slider').slider();
     $('.modal').modal();
+    $('.materialboxed').materialbox();
+
   
 
   }); // end of document ready
@@ -125,10 +127,10 @@ function getModalElem(){
                         <h4 style="margin-bottom: 40px;"></h4>
                         <p></p>
                         <div>
-                            <a id="rcorners1" style="margin-right: 40px;" href="https://www.swiggy.com/restaurants/corn-king-pratap-nagar-nagpur-218957?searchQuery=Corn+King">
+                            <a id="rcorners1"  href="https://www.swiggy.com/restaurants/corn-king-pratap-nagar-nagpur-218957?searchQuery=Corn+King">
                                 <img id="rcorners2" border="0" alt="swiggy" src="swiggy.png" width="120" height="100" />
                             </a>
-
+</div><br> <div>
                             <a id="rcorners1" href="https://www.zomato.com/nagpur/corn-king-gayatri-nagar">
                                 <img id="rcorners2" border="0" alt="zomato" src="zomato.png" width="120" height="100" />
                             </a>
